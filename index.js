@@ -1,6 +1,6 @@
 require('dotenv').config(); // add this line as the first thing to run1
 
-const server = require('./api/server.js');
+const server = require('./server.js');
 
 // we'll read the port from the server environment if it is there
 // heroku will have the PORT environment variable set
